@@ -1,0 +1,11 @@
+  @font-face 
+  {
+  	font-family:'OstrichBold';
+  	src: url('../fonts/OstrichBold.ttf');
+  }
+  
+    @font-face 
+  {
+  	font-family:'RalewayThin';
+  	src: url('../fonts/RalewayThin.otf');
+  }
