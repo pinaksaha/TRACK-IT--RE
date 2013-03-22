@@ -33,6 +33,7 @@
 	{
 		$q = $search."#".$search.'@'.$location."&rpp=500";
 		$link = "http://search.twitter.com/search.json?q=";
+		$q = str_replace(' ', '', $q);
 		$content_link =  $link.$q;
 		//print $content_link;
 		$tweets = file_get_contents($content_link,true);
